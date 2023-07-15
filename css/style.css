@@ -206,3 +206,94 @@ body{
     font-size: 16px;
     text-transform: uppercase;
 }
+
+
+/* About */
+.about-wrapper{
+    padding: 50px 0;
+}
+.about-wrapper .about-title{
+    color: var(--primary-text);
+    font-size: 2.5rem;
+    font-weight: 600;
+    font-family: var(--secondary-font);
+    max-width: 80%;
+
+}
+.about-wrapper .about-title span{
+    color: var(--secondary-text);
+}
+
+
+/* Rooms */
+.rooms-wrapper{
+
+}
+.rooms-wrapper .rooms-title{
+    font-family: var(--secondary-font);
+    font-size: 15px;
+
+}
+.rooms-wrapper .rooms-text{
+    color: var(--primary-text);
+    font-size: 2.5rem;
+    font-weight: 600;
+    font-family: var(--secondary-font);
+}
+.rooms-wrapper .rooms-card{
+    overflow: hidden;
+    cursor: pointer;
+    transition: 0.5s ease-in;
+}
+.rooms-wrapper .rooms-card img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: transform 1s ease;
+}
+.rooms-wrapper .rooms-card:hover img{
+    transform: scale(1.1);
+    opacity: 0.5;
+}
+.rooms-wrapper .rooms-card{
+    background-color: var(--bg-black);
+}
+.rooms-wrapper .rooms-content{
+    border: 2px solid var(--bg-white);
+    color: var(--text-white);
+    max-width: 100%;
+    height: 96%;
+    margin: 10px 20px;
+    padding: 5rem 2rem;
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+    visibility: hidden;
+    /* transition: transform 1s ease; */
+}
+.rooms-wrapper .rooms-content-title{
+    font-family: var(--secondary-font);
+    text-decoration: underline;
+    font-size: 30px;
+}
+.rooms-wrapper .rooms-content-text{
+    font-weight: 450;
+}
+.rooms-wrapper .rooms-content-rate{
+    font-size: 18px;
+    font-weight: 800;
+}
+.rooms-wrapper .rooms-content .main-btn{
+    color: var(--text-white);
+    border: 2px solid var(--bg-color);
+    font-weight: 600;
+    transition: none;
+}
+.rooms-wrapper .rooms-card:hover .rooms-content{
+    visibility: visible;
+    /* transform: scale(1.1); */
+}
