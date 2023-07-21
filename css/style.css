@@ -321,7 +321,7 @@ body{
     font-family: var(--secondary-font);
 }
 .services-wrapper .tab-1{
-    max-width: 70%;
+    max-width: 73%;
     margin: 1rem 0;
     z-index: 2;
     cursor: pointer;
@@ -333,29 +333,35 @@ body{
     cursor: pointer;
 }
 .services-wrapper .tab-3{
-    max-width: 90%;
+    max-width: 87%;
     margin: 1rem 0;
     z-index: 2;
     cursor: pointer;
 }
 .services-wrapper .tab-4{
-    max-width: 100%;
+    max-width: 94%;
     margin: 1rem 0;
     z-index: 2;
     cursor: pointer;
 }
-.services-wrapper .tab-img{
+.services-wrapper .tab-content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.services-wrapper .tab-content .tab-img{
     background-color: var(--secondary-color);
-    /* max-width: 100%; */
-    /* margin: 12px 0; */
-    /* border-radius: 50%; */
-    /* display: flex; */
-    /* justify-content: center; */
+    border-radius: 50%;
+    min-height: 90px;
+    min-width: 90px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 .services-wrapper .tab-img:hover,
 .services-wrapper .tab-img.active{
     background-color: var(--primary-color);
-    transition: all 1s ease;
+    transition: all 0.5s ease;
 }
 .services-wrapper .tab-img img{
     padding: 14px 0;
@@ -405,6 +411,6 @@ body{
     color: var(--text-white);
 }
 .services-wrapper .rating-content p{
-    font-size: 16px;
+    font-size: 15px;
     color: var(--text-white);
 }
