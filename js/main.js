@@ -104,3 +104,31 @@ document.addEventListener("DOMContentLoaded", () => {
     counter("count3", 0, 1440, 3000);
     counter("count4", 0, 7110, 3000);
    });
+
+
+
+
+
+//    OwlCarousel
+$(document).ready(function() {
+    $(".client-slider-section").owlCarousel({
+        items: 4,
+        loop: true,
+        nav: false,
+        autoplay: true,
+        autoplayTimeout: 2000,
+        autoplayHoverPause: true,
+        responsiveClass: true,
+        responsive: {
+            0: {
+                items: 2
+            },
+            // 600: {
+            //     items: 3
+            // },
+            600: {
+                items: 5
+            }
+        }
+    });
+});
