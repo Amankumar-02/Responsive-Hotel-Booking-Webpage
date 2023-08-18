@@ -1,0 +1,62 @@
+/* < !--Responsive Design--> */
+@media (max-width: 1199px) {
+
+}
+
+@media (max-width:991px) {
+
+}
+
+@media (max-width: 767px) {
+
+    
+}
+
+@media (max-width: 500px) {
+    /* nav */
+    .header-wrapper .navbar-toggler[aria-expanded="true"]{
+        background-color: rgba(255, 255, 255, .85);
+    -webkit-animation: 500ms ease-in-out 0s normal none 1 running fadeInDown;
+    animation: 500ms ease-in-out 0s normal none 1 running fadeInDown;
+    }
+    @keyframes fadeInDown {
+    0% {
+        top: -30%;
+    }
+
+    50% {
+        top: -15%;
+    }
+
+    100% {
+        top: 0;
+    }
+}
+
+    /*  banner  */
+    .slide-1 img{
+        max-width: 100%;
+    } 
+    .slide-2 img{
+        max-width: 100%;
+    }
+    .banner-wrapper .details-box{
+    position: relative;
+    width: 94%;
+    bottom: 0;
+    padding: 0px 0;
+}
+.banner-wrapper .bottom{
+    padding-top: 20px !important;
+    padding-bottom: 30px !important;
+}
+    /* about */
+    .about-wrapper .about-title{
+        max-width: 100%;
+    }
+
+    /* footer */
+    .footer-wrapper .card-4 input{
+        width: 90%;
+    }
+}
