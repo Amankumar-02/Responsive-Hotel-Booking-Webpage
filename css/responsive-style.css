@@ -59,4 +59,8 @@
     .footer-wrapper .card-4 input{
         width: 90%;
     }
+    .footer-wrapper .card-4 ul li a{
+        font-size: 28px;
+    }
+
 }
